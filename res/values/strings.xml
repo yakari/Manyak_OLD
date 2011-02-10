@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Welcome to your Collection Manager!</string>
+    <string name="app_name">Manyak</string>
+    <string name="app_description">Manyak is a tool to keep tracks of items you lend to someone, in order to keep your collections complete! It is NOT (yet) a full collection browser with every possible info on your items stored, as it would be in GCStar or Tellico.</string>
+<string name="main_browse">Browse collection</string>
+<string name="main_additem">Add an item</string>
+<string name="main_lend">Lend an item</string>
+<string name="main_retrieve">Retrieve an item</string>
+<string name="additem_title">Add an item</string>
+<string name="additem_scan_code_label">Scan barcode</string>
+<string name="additem_textbox_title">Enter the title</string>
+<string name="additem_cover_photo_label">Take a picture of the cover</string>
+<string name="additem_take_photo_label">Take a photo !</string>
+<string name="preference_category_title_settings">Preferences</string>
+<string name="preference_title_system">System settings</string>
+<string name="preference_summary_system">-- nothing --</string>
+<string name="preference_category_title_system">Category System settings</string>
+<string name="preference_title_external_storage">Use external storage</string>
+<string name="preference_summary_external_storage_off">The database will be stored on internal mem (HUGE!)</string>
+<string name="preference_summary_external_storage_on">The database will be stored on SD card</string>
+<string name="preference_title_contact_developer">Contact Developer</string>
+<string name="preference_title_report_bug">Report Bug</string>
+<string name="preference_title_change_log">Change Log</string>
+<string name="preference_title_about_application">About AndTweet</string>
+<string name="preference_category_title_information">About...</string>
+<string name="main_list_all">List all items</string>
+<string name="main_list_loaned">List loaned items</string>
+<string name="main_menu_preferences">Preferences</string>
+<string name="additem_toast_photo_cancelled">Action canceled</string>
+<string name="additem_toast_nobarcode">You did not acquire any barcode... Canceled!</string>
+<string name="additem_toast_item_registered">The item titled </string>
+<string name="additem_toast_item_registered_part2"> was added to your collection!</string>
+<string name="additem_unnamed">unnamed</string>
+<string name="zxing_title">Install Barcode Scanner?</string>
+<string name="zxing_message">This application requires Barcode Scanner. Would you like to install it?</string>
+<string name="zxing_yes">Yes</string>
+<string name="zxing_no">No</string>
+<string name="lenditem_title">Lend an item</string>
+<string name="additem_alert_exists_title">This item already exists...</string>
+<string name="additem_alert_exists_msg">The item you are trying to record already exists in the database. Do you want to update it?</string>
+<string name="app_generic_yes">Yes</string>
+<string name="app_generic_no">No</string>
+</resources>

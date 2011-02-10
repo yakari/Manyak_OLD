@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  
+  <Button android:id="@+id/scanCodeLend"
+            android:text="@string/additem_scan_code_label"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+  </Button>
+    
+  <ListView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/listLend"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" />
+    
+</LinearLayout>

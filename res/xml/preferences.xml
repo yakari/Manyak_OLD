@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  <!-- SETTINGS -->
+    <PreferenceCategory android:title="@string/preference_category_title_settings">
+    
+        <!-- SYSTEM -->
+        <!-- <PreferenceScreen android:key="preference_screen_system"
+            android:summary="@string/preference_summary_system"
+            android:title="@string/preference_title_system">
+            <PreferenceCategory android:title="@string/preference_category_title_system"> -->
+                <CheckBoxPreference android:key="use_external_storage"
+                    android:title="@string/preference_title_external_storage"
+                    android:summaryOff="@string/preference_summary_external_storage_off"
+                    android:summaryOn="@string/preference_summary_external_storage_on" />
+            <!-- </PreferenceCategory>
+        </PreferenceScreen> -->
+
+        <!-- APPEARANCE -->
+        <!-- <PreferenceScreen android:key="preference_screen_apperance"
+            android:summary="@string/summary_preference_appearance"
+            android:title="@string/title_preference_appearance">
+            <PreferenceCategory android:title="@string/category_title_preference_appearance">
+                <ListPreference android:key="theme" android:entries="@array/theme_values"
+                    android:entryValues="@array/theme_keys"
+                    android:defaultValue="AndTweet"
+                    android:title="@string/title_preference_theme"
+                    android:summary="@string/summary_preference_theme"
+                    android:dialogTitle="@string/dialog_title_preference_theme" />
+                <CheckBoxPreference android:key="appearance_light_theme"
+                    android:title="@string/title_preference_light_theme"
+                    android:summaryOff="@string/summary_preference_light_theme_off"
+                    android:summaryOn="@string/summary_preference_light_theme_on" />
+                <ListPreference android:entryValues="@array/history_size_keys"
+                    android:entries="@array/history_size_values" android:summary="@string/summary_preference_history_size"
+                    android:dialogTitle="@string/dialog_title_preference_history_size"
+                    android:defaultValue="2000"
+                    android:title="@string/title_preference_history_size" android:key="history_size" />
+                <ListPreference android:entryValues="@array/history_time_keys"
+                    android:entries="@array/history_time_values" android:summary="@string/summary_preference_history_time"
+                    android:dialogTitle="@string/dialog_title_preference_history_time"
+                    android:defaultValue="3"
+                    android:title="@string/title_preference_history_time" android:key="history_time" />
+            </PreferenceCategory>
+        </PreferenceScreen> -->
+
+        <!-- AUTOMATIC UPDATES -->
+        <!-- <PreferenceScreen android:key="preference_screen_automatic_updates"
+            android:summary="@string/summary_preference_automatic_updates"
+            android:title="@string/title_preference_automatic_updates"
+            android:dependency="twitter_username"
+            android:shouldDisableView="true">
+            <PreferenceCategory
+                android:title="@string/category_title_preference_automatic_updates">
+                <CheckBoxPreference android:key="automatic_updates"
+                    android:title="@string/title_preference_automatic_updates"
+                    android:disableDependentsState="false"
+                    android:defaultValue="true" 
+                    android:summaryOff="@string/summary_preference_automatic_updates_off"
+                    android:summaryOn="@string/summary_preference_automatic_updates_on" />
+                <ListPreference android:entryValues="@array/fetch_frequency_keys"
+                    android:entries="@array/fetch_frequency_values" android:summary="@string/summary_preference_frequency"
+                    android:dialogTitle="@string/dialog_title_preference_frequency"
+                    android:title="@string/title_preference_frequency" android:key="fetch_frequency"
+                    android:dependency="automatic_updates" android:defaultValue="900" />
+            </PreferenceCategory>
+        </PreferenceScreen> -->
+        
+    </PreferenceCategory>
+  
+  <!-- SETTINGS -->
+    <PreferenceCategory android:title="@string/preference_category_title_information">
+        <Preference android:key="contact_developer" android:title="@string/preference_title_contact_developer">
+            <intent android:action="android.intent.action.VIEW" android:data="http://andtweet.com/appcontact" />
+        </Preference>
+        <Preference android:key="report_bug" android:title="@string/preference_title_report_bug">
+            <intent android:action="android.intent.action.VIEW" android:data="http://code.google.com/p/andtweet/issues/entry" />
+        </Preference>
+        <Preference android:key="change_log" android:title="@string/preference_title_change_log">
+            <intent android:action="android.intent.action.VIEW" android:data="http://andtweet.com/appchangelog" />
+        </Preference>
+        <Preference android:key="about_application" android:title="@string/preference_title_about_application">
+            <intent android:action="android.intent.action.VIEW" android:data="http://andtweet.com/appabout" />
+        </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>

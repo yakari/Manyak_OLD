@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView android:layout_width="fill_parent" 
+              android:layout_height="wrap_content" 
+              android:text="@string/hello"/>
+    
+    <Button android:id="@+id/BrowseButton"
+            android:text="@string/main_browse"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+    
+    <Button android:id="@+id/AddButton"
+            android:text="@string/main_additem"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+    
+    <Button android:id="@+id/LendButton"
+            android:text="@string/main_lend"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+    
+    <Button android:id="@+id/RecoverButton"
+            android:text="@string/main_retrieve"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+</LinearLayout>
